@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  --color-primary: #137547;       /* Ansarudeen Forest Green */
-  --color-secondary: #0b2216;     /* Deep Forest Black-Green */
-  --color-accent: #c69214;        /* Premium Gold */
+  --color-primary: #1e633b;       /* Ansarudeen Forest Green */
+  --color-secondary: #0a2214;     /* Deep Forest Black-Green */
+  --color-accent: #f35f09;        /* Premium Gold */
   --color-bg: #f4f8f6;            /* Clean light green-gray background */
   --color-slide-bg: #ffffff;      /* Slide background */
-  --color-text-dark: #0b2216;     /* High contrast dark text */
+  --color-text-dark: #0a2214;     /* High contrast dark text */
   --color-text-muted: #4a6054;    /* Secondary muted text */
   --color-border: #d3e2d9;        /* Subtle green-gray divider */
-  --shadow-sm: 0 2px 4px rgba(11, 34, 22, 0.05);
-  --shadow-md: 0 10px 25px rgba(11, 34, 22, 0.08);
-  --shadow-lg: 0 20px 40px rgba(11, 34, 22, 0.12);
+  --shadow-sm: 0 2px 4px rgba(10, 34, 20, 0.05);
+  --shadow-md: 0 10px 25px rgba(10, 34, 20, 0.08);
+  --shadow-lg: 0 20px 40px rgba(10, 34, 20, 0.12);
   --font-title: 'Outfit', 'Plus Jakarta Sans', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
   --slide-width: 1280px;
@@ -90,7 +90,7 @@ header {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background-color: rgba(33, 145, 202, 0.1);
+  background-color: rgba(30, 99, 59, 0.1);
   padding: 2px 8px;
   border-radius: 12px;
 }
@@ -129,8 +129,8 @@ header {
 }
 
 .btn-primary:hover {
-  background-color: #177cb2;
-  border-color: #177cb2;
+  background-color: #247b4a;
+  border-color: #247b4a;
 }
 
 .btn-accent {
@@ -140,8 +140,8 @@ header {
 }
 
 .btn-accent:hover {
-  background-color: #df960c;
-  border-color: #df960c;
+  background-color: #d65005;
+  border-color: #d65005;
 }
 
 .btn-icon {
@@ -198,7 +198,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 3.5rem 4rem;
+  padding: 2.2rem 4rem 4.5rem 4rem;
   opacity: 0;
   visibility: hidden;
   transform: scale(0.96) translateY(10px);
@@ -209,8 +209,8 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   z-index: 1;
-  background: radial-gradient(circle at 8% 8%, rgba(33, 145, 202, 0.05) 0%, transparent 45%),
-              radial-gradient(circle at 92% 92%, rgba(246, 170, 19, 0.05) 0%, transparent 45%),
+  background: radial-gradient(circle at 8% 8%, rgba(30, 99, 59, 0.05) 0%, transparent 45%),
+              radial-gradient(circle at 92% 92%, rgba(243, 95, 9, 0.05) 0%, transparent 45%),
               #ffffff;
 }
 
@@ -276,7 +276,7 @@ h1.slide-title {
   font-size: 2.8rem;
   color: var(--color-secondary);
   line-height: 1.2;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -354,7 +354,7 @@ p.body-text {
 .card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-md);
-  border-color: rgba(33, 145, 202, 0.4);
+  border-color: rgba(30, 99, 59, 0.4);
 }
 
 .card::before {
@@ -381,7 +381,7 @@ p.body-text {
 .card-icon {
   width: 48px;
   height: 48px;
-  background-color: rgba(33, 145, 202, 0.1);
+  background-color: rgba(30, 99, 59, 0.1);
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -392,7 +392,7 @@ p.body-text {
 }
 
 .card.accent .card-icon {
-  background-color: rgba(246, 170, 19, 0.1);
+  background-color: rgba(243, 95, 9, 0.1);
   color: var(--color-accent);
 }
 
@@ -408,7 +408,7 @@ p.body-text {
    SLIDE 1: Title / Cover Slide
    ======================================================== */
 .slide-cover {
-  background: linear-gradient(135deg, #181e37 0%, #1f2747 100%);
+  background: linear-gradient(135deg, #0a2214 0%, #103520 100%);
   color: white;
   padding: 0;
   position: relative;
@@ -434,7 +434,7 @@ p.body-text {
   right: -10%;
   width: 60%;
   height: 80%;
-  background: radial-gradient(circle, rgba(33, 145, 202, 0.18) 0%, rgba(33, 145, 202, 0) 70%);
+  background: radial-gradient(circle, rgba(30, 99, 59, 0.18) 0%, rgba(30, 99, 59, 0) 70%);
   filter: blur(80px);
 }
 
@@ -444,7 +444,7 @@ p.body-text {
   left: -10%;
   width: 50%;
   height: 70%;
-  background: radial-gradient(circle, rgba(246, 170, 19, 0.12) 0%, rgba(246, 170, 19, 0) 70%);
+  background: radial-gradient(circle, rgba(243, 95, 9, 0.12) 0%, rgba(243, 95, 9, 0) 70%);
   filter: blur(80px);
 }
 
@@ -487,7 +487,7 @@ p.body-text {
   border-radius: 30px;
   align-self: flex-start;
   margin-bottom: 1.5rem;
-  box-shadow: 0 4px 15px rgba(246, 170, 19, 0.3);
+  box-shadow: 0 4px 15px rgba(243, 95, 9, 0.3);
 }
 
 .cover-title {
@@ -501,7 +501,7 @@ p.body-text {
 }
 
 .cover-title span {
-  background: linear-gradient(90deg, var(--color-primary) 0%, #68bbf2 100%);
+  background: linear-gradient(90deg, var(--color-primary) 0%, #f35f09 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -509,7 +509,7 @@ p.body-text {
 .cover-description {
   font-size: 1.25rem;
   line-height: 1.6;
-  color: #a2b0cb;
+  color: #a2cbb2;
   margin-bottom: 2rem;
   font-weight: 400;
   max-width: 580px;
@@ -705,7 +705,7 @@ p.body-text {
 }
 
 .framework-detail-badge {
-  background-color: rgba(33, 145, 202, 0.1);
+  background-color: rgba(30, 99, 59, 0.1);
   color: var(--color-primary);
   font-size: 0.8rem;
   font-weight: 700;
@@ -784,7 +784,7 @@ p.body-text {
 .triangle-node:hover circle, .triangle-node.active circle {
   fill: var(--color-primary);
   r: 14;
-  filter: drop-shadow(0 0 8px rgba(33, 145, 202, 0.6));
+  filter: drop-shadow(0 0 8px rgba(30, 99, 59, 0.6));
 }
 
 .triangle-line {
@@ -841,7 +841,7 @@ p.body-text {
 }
 
 .concept-tab-card.active {
-  background-color: rgba(33, 145, 202, 0.02);
+  background-color: rgba(30, 99, 59, 0.02);
   border-left: 4px solid var(--color-primary);
 }
 
@@ -867,17 +867,17 @@ p.body-text {
 }
 
 .tab-badge-navy {
-  background-color: rgba(24, 30, 55, 0.08);
+  background-color: rgba(10, 34, 20, 0.08);
   color: var(--color-secondary);
 }
 
 .tab-badge-blue {
-  background-color: rgba(33, 145, 202, 0.1);
+  background-color: rgba(30, 99, 59, 0.1);
   color: var(--color-primary);
 }
 
 .tab-badge-accent {
-  background-color: rgba(246, 170, 19, 0.1);
+  background-color: rgba(243, 95, 9, 0.1);
   color: var(--color-accent);
 }
 
@@ -905,7 +905,7 @@ p.body-text {
 .checklist-box {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 0.8rem;
   justify-content: center;
 }
 
@@ -913,7 +913,7 @@ p.body-text {
   display: flex;
   gap: 14px;
   align-items: flex-start;
-  padding: 1rem;
+  padding: 0.8rem;
   background-color: var(--color-bg);
   border: 1px solid var(--color-border);
   border-radius: 12px;
@@ -949,11 +949,11 @@ p.body-text {
 .sdg-selector {
   border: 1px solid var(--color-border);
   border-radius: 16px;
-  padding: 1.8rem;
+  padding: 1.2rem;
   background-color: var(--color-slide-bg);
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 0.8rem;
 }
 
 .sdg-grid {
@@ -995,7 +995,7 @@ p.body-text {
 .sdg-icon-btn.active {
   border-color: var(--color-secondary);
   transform: scale(1.08);
-  box-shadow: 0 0 0 3px rgba(33, 145, 202, 0.4);
+  box-shadow: 0 0 0 3px rgba(30, 99, 59, 0.4);
 }
 
 /* SDG specific colors */
@@ -1013,7 +1013,7 @@ p.body-text {
   border-radius: 10px;
   padding: 1rem;
   border: 1px solid var(--color-border);
-  min-height: 100px;
+  min-height: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1177,7 +1177,7 @@ p.body-text {
 }
 
 .org-node.active.director {
-  box-shadow: 0 0 15px rgba(24, 30, 55, 0.4);
+  box-shadow: 0 0 15px rgba(10, 34, 20, 0.4);
 }
 
 .org-node-title {
@@ -1280,12 +1280,12 @@ p.body-text {
 }
 
 .badge-output {
-  background-color: rgba(33, 145, 202, 0.1);
+  background-color: rgba(30, 99, 59, 0.1);
   color: var(--color-primary);
 }
 
 .badge-outcome {
-  background-color: rgba(246, 170, 19, 0.1);
+  background-color: rgba(243, 95, 9, 0.1);
   color: var(--color-accent);
 }
 
@@ -1592,7 +1592,7 @@ p.body-text {
 .canvas-intro-number {
   width: 28px;
   height: 28px;
-  background-color: rgba(33, 145, 202, 0.1);
+  background-color: rgba(30, 99, 59, 0.1);
   color: var(--color-primary);
   border-radius: 50%;
   display: flex;
@@ -1655,9 +1655,9 @@ p.body-text {
 }
 
 .canvas-block.active {
-  background-color: rgba(33, 145, 202, 0.03);
+  background-color: rgba(30, 99, 59, 0.03);
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(33, 145, 202, 0.15);
+  box-shadow: 0 0 0 3px rgba(30, 99, 59, 0.15);
 }
 
 .canvas-block-num {
@@ -1748,7 +1748,7 @@ p.body-text {
   font-family: var(--font-title);
   font-size: 2.2rem;
   font-weight: 800;
-  color: rgba(33, 145, 202, 0.2);
+  color: rgba(30, 99, 59, 0.2);
   line-height: 1;
   margin-bottom: 1rem;
 }
@@ -1801,7 +1801,7 @@ p.body-text {
 
 .case-btn:hover, .case-btn.active {
   border-color: var(--color-primary);
-  background-color: rgba(33, 145, 202, 0.02);
+  background-color: rgba(30, 99, 59, 0.02);
   box-shadow: var(--shadow-sm);
 }
 
@@ -2116,7 +2116,7 @@ p.body-text {
   font-weight: 700;
   font-size: 1.3rem;
   color: var(--color-primary);
-  background-color: rgba(33, 145, 202, 0.1);
+  background-color: rgba(30, 99, 59, 0.1);
   padding: 4px 12px;
   border-radius: 8px;
   font-variant-numeric: tabular-nums;
@@ -2210,7 +2210,7 @@ p.body-text {
   left: -15%;
   width: 450px;
   height: 450px;
-  background: radial-gradient(circle, var(--color-primary) 0%, rgba(33, 145, 202, 0) 70%);
+  background: radial-gradient(circle, var(--color-primary) 0%, rgba(30, 99, 59, 0) 70%);
 }
 
 .bg-blob-2 {
@@ -2218,7 +2218,7 @@ p.body-text {
   right: -15%;
   width: 550px;
   height: 550px;
-  background: radial-gradient(circle, var(--color-accent) 0%, rgba(246, 170, 19, 0) 70%);
+  background: radial-gradient(circle, var(--color-accent) 0%, rgba(243, 95, 9, 0) 70%);
   animation-delay: -6s;
   animation-duration: 30s;
 }
@@ -2292,7 +2292,7 @@ p.body-text {
   display: flex;
   align-items: stretch;
   justify-content: stretch;
-  background: #111528; /* deep fallback */
+  background: #05120a; /* deep fallback */
 }
 
 .cover-speaker-img-full {
@@ -2312,7 +2312,7 @@ p.body-text {
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to top, rgba(24, 30, 55, 0.98) 0%, rgba(24, 30, 55, 0.8) 60%, transparent 100%);
+  background: linear-gradient(to top, rgba(10, 34, 20, 0.98) 0%, rgba(10, 34, 20, 0.8) 60%, transparent 100%);
   padding: 3rem 2rem 2.5rem 2rem;
   text-align: center;
   z-index: 5;
@@ -2346,7 +2346,7 @@ p.body-text {
   border-radius: 20px;
   display: inline-block;
   font-weight: 700;
-  box-shadow: 0 4px 12px rgba(33, 145, 202, 0.4);
+  box-shadow: 0 4px 12px rgba(30, 99, 59, 0.4);
 }
 
 /* ========================================================
@@ -2402,9 +2402,9 @@ p.body-text {
   margin-bottom: 1rem;
 }
 
-.level-1 .level-badge { background-color: rgba(33, 145, 202, 0.1); color: var(--color-primary); }
-.level-2 .level-badge { background-color: rgba(24, 30, 55, 0.1); color: var(--color-secondary); }
-.level-3 .level-badge { background-color: rgba(246, 170, 19, 0.1); color: var(--color-accent); }
+.level-1 .level-badge { background-color: rgba(30, 99, 59, 0.1); color: var(--color-primary); }
+.level-2 .level-badge { background-color: rgba(10, 34, 20, 0.1); color: var(--color-secondary); }
+.level-3 .level-badge { background-color: rgba(243, 95, 9, 0.1); color: var(--color-accent); }
 
 .level-title {
   font-family: var(--font-title);
@@ -2583,7 +2583,7 @@ p.body-text {
 .walkthrough-step-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-md);
-  border-color: rgba(33, 145, 202, 0.4);
+  border-color: rgba(30, 99, 59, 0.4);
 }
 
 .walkthrough-step-card::before {
@@ -2632,9 +2632,9 @@ p.body-text {
   border-radius: 10px;
 }
 
-.walkthrough-step-card:nth-child(1) .walkthrough-step-badge { background-color: rgba(246, 170, 19, 0.1); color: #df960c; }
-.walkthrough-step-card:nth-child(2) .walkthrough-step-badge { background-color: rgba(33, 145, 202, 0.1); color: var(--color-primary); }
-.walkthrough-step-card:nth-child(3) .walkthrough-step-badge { background-color: rgba(24, 30, 55, 0.1); color: var(--color-secondary); }
+.walkthrough-step-card:nth-child(1) .walkthrough-step-badge { background-color: rgba(243, 95, 9, 0.1); color: #d65005; }
+.walkthrough-step-card:nth-child(2) .walkthrough-step-badge { background-color: rgba(30, 99, 59, 0.1); color: var(--color-primary); }
+.walkthrough-step-card:nth-child(3) .walkthrough-step-badge { background-color: rgba(10, 34, 20, 0.1); color: var(--color-secondary); }
 
 .walkthrough-step-title {
   font-family: var(--font-title);
